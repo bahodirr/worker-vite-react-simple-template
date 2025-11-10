@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"strict": true,
+		"noEmit": true,
+		"skipLibCheck": true,
+		"types": ["@cloudflare/workers-types"],
+		"lib": ["ES2023", "WebWorker", "ESNext.Intl"],
+		"baseUrl": "."
+	},
+	"include": ["worker"],
+	"exclude": ["dist", "node_modules", "src"]
+}
