@@ -9,7 +9,7 @@ export function HomePage() {
             Welcome back!
           </h2>
           <p className="mx-auto max-w-md text-balance text-base text-muted-foreground sm:text-lg">
-            You're successfully signed in. Start building your amazing features.
+            Ask AI anything.
           </p>
           <pre className="whitespace-pre-wrap rounded-lg bg-muted p-4 text-left text-sm font-mono text-muted-foreground">
             {starterPrompt}
